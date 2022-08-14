@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  filter: brightness(90%);
+}
+.hidden {
+  display: none;
+}
+#clock {
+  font-weight: 700;
+  font-size: 5rem;
+}
+#greeting {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+input {
+  background: none;
+  outline: none;
+  border-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  width: 325px;
+  border-bottom: 2px solid #fff;
+}
+input::placeholder {
+  color: #fff;
+}
+#todo-form {
+  margin-top: 4rem;
+}
+.todo-list-des {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+}
+main {
+  margin: 350px auto 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
