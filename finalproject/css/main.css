@@ -50,3 +50,7 @@ button {
   border: none;
   cursor: pointer;
 }
+#todo-list li {
+  line-height: 1.5em;
+  padding: 0.1rem;
+}
