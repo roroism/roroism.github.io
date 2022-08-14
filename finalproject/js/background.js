@@ -4,4 +4,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 document.querySelector(
   "html"
-).style.background = `center / cover no-repeat url(../img/${chosenImage})`;
+).style.background = `center / cover no-repeat url(./img/${chosenImage})`;
